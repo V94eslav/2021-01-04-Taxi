@@ -1,0 +1,54 @@
+@font-face {
+  font-family: L-R;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: L-B;
+  src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: BN-R;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+  font-family: L-R, sans-serif;
+  background-color: #fff;
+}
+
+%btn {
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 6px;
+
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "BN-R";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+%btn:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.3s linear;
+}
+
+@media (max-width: 770px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@import "_zero-style";
+@import "_1header";
+@import "_2banner";
+@import "_3about";
+@import "_4tariffs";
+@import "_5best";
+@import "_6download";
+@import "_7testimonials";
+@import "_8call";
+@import "_9footer";

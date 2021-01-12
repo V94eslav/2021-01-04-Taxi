@@ -1,0 +1,27 @@
+.call-outside {
+  background-color: #ffc61a;
+}
+
+.call {
+  padding: 70px 0 80px;
+
+  &__text {
+    color: #000000;
+    font-family: "L-B";
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    text-align: center;
+  }
+
+  &__number {
+    color: #000000;
+    font-family: "L-B";
+    font-size: 77px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    text-align: center;
+  }
+}
